@@ -10,6 +10,12 @@ Created this project as part of Udemy Course - [Course Link](https://www.udemy.c
 Transparent-Fixed NavBar 
 With Custom Links
 
+*Mobile*
+<img src="previews/navbar-mobile.png" />
+
+*Normal*
+<img src="previews/navbar.png" />
+
 ```html
 <!-- Transparent Fixed NavBar -->
 <nav class="navbar navbar-light navbar-expand-md fixed-top bg-transparent">
@@ -40,6 +46,12 @@ With Custom Links
 Two Column Row 
 Column One - Text 
 Column Two - Picture
+
+*Mobile*
+<img src="previews/section1-mobile.png" />
+
+*Normal*
+<img src="previews/section1.png" />
 
 ```html
 <div class="row">
