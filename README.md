@@ -7,7 +7,7 @@ Created this project as part of Udemy Course - [Course Link](https://www.udemy.c
 ## Structure Of Project
 ### NavBar
 
-Transparent-Fixed NavBar
+Transparent-Fixed NavBar 
 With Custom Links
 
 ```html
@@ -33,4 +33,28 @@ With Custom Links
         </ul>
     </div>
 </nav>
+```
+
+### First Section
+
+Two Column Row 
+Column One - Text 
+Column Two - Picture
+
+```html
+<div class="row">
+    <div class="col-12 col-md-6" style="background-color: #F4D5E0; padding-top: 7rem; padding-bottom: 7rem;">
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+    </div>
+
+    <div class="col-12 col-md-6" style="background-color: #CAECFA">
+        <!-- picture colimn -->
+    </div>
+</div>
 ```
