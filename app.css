@@ -21,6 +21,11 @@ body {
     color: #EA1C2C;
 }
 
-.custom-red {
+.headingGroup h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.headingGroup h2 span {
     color: #EA1C2C;
 }
