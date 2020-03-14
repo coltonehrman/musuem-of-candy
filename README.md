@@ -70,8 +70,22 @@ body {
 *CSS*
 ```css
 .headingGroup h2 {
-    font-size: 2.5rem;
-    font-weight: 200;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+/* Reduce Font Size */
+@media (max-width: 1200px) {
+    .headingGroup h2 {
+        font-size: 3rem;
+    }
+}
+
+/* Reduce Font Size */
+@media (max-width: 1100px) {
+    .headingGroup h2 {
+        font-size: 2.75rem;
+    }
 }
 
 .headingGroup h2 span {
