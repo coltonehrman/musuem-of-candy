@@ -1,40 +1,51 @@
 Museum Of Candy
 ======================
-**[View Completed Project](https://coltonehrman.github.io/udacity-canvas-game)**
+**[View Completed Project]()**
 
 Created this project as part of Udemy Course - [Course Link](https://www.udemy.com/share/101W9CBUobdVZUQXo=/) to learn how to use [Bootstrap 4](https://getbootstrap.com/) in laying out Web pages in a modern grid layout.
 
 ## Structure Of Project
 ### NavBar
 
-Transparent-Fixed NavBar 
-With Custom Links
+```css
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
 
-*Mobile*
-<img src="previews/navbar-mobile.png" />
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.75rem;
+}
 
-*Normal*
-<img src="previews/navbar.png" />
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+```
 
 ```html
 <!-- Transparent Fixed NavBar -->
-<nav class="navbar navbar-light navbar-expand-md fixed-top bg-transparent">
-    <span class="h3 mb-0 mr-4 text-uppercase font-weight-light" style="color: mediumvioletred">candy</span>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top bg-transparent py-0">
+    <a href="#" class="navbar-brand mb-0 mr-4 text-uppercase">candy</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link h4 mb-0 text-white text-uppercase font-weight-light" href="#">Home</a>
+                <a class="nav-link mb-0 text-uppercase" href="#">home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h4 mb-0 text-white text-uppercase font-weight-light" href="#">Features</a>
+                <a class="nav-link mb-0 text-uppercase" href="#">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h4 mb-0 text-white text-uppercase font-weight-light" href="#">Pricing</a>
+                <a class="nav-link mb-0 text-uppercase" href="#">tickets</a>
             </li>
         </ul>
     </div>
