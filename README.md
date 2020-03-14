@@ -9,6 +9,7 @@ Created this project as part of Udemy Course - [Course Link](https://www.udemy.c
 
 Custom Navbar with a bit of extra CSS to give it a different feel from the default Bootstrap Navbars.
 
+*CSS*
 ```css
 body {
     background-color: #F5D9D5;
@@ -34,6 +35,7 @@ body {
 }
 ```
 
+*HTML*
 ```html
 <!-- Transparent Fixed NavBar -->
 <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top bg-transparent py-0">
@@ -63,22 +65,40 @@ body {
 </nav>
 ```
 
-### First Section
+### First Row
 
+*CSS*
+```css
+.headingGroup h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.headingGroup h2 span {
+    color: #EA1C2C;
+}
+```
+
+*HTML*
 ```html
-<div class="row">
-    <div class="col-12 col-md-6" style="background-color: #F4D5E0; padding-top: 7rem; padding-bottom: 7rem;">
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
-        <h2 class="display-4 text-center font-weight-light text-white text-uppercase">museum<span style="color: mediumvioletred">/</span>of<span style="color: mediumvioletred">/</span>candy</h2>
+<!-- First Row -->
+<div class="row align-items-center">
+    <!-- Museum Of Candy Text -->
+    <div class="col-12 col-lg-6 d-none d-lg-block">
+        <div class="headingGroup text-white text-center text-uppercase">
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+            <h2>museum<span>/</span>of<span class="custom-red">/</span>candy</h2>
+        </div>
     </div>
 
-    <div class="col-12 col-md-6" style="background-color: #CAECFA">
-        <!-- picture colimn -->
+    <!-- Hand Image -->
+    <div class="col-12 col-lg-6 p-0">
+        <img class="img-fluid" src="imgs/hand2.png" alt="">
     </div>
 </div>
 ```
